@@ -1,0 +1,96 @@
+
+
+@media only screen and (min-width: 1440px) {
+    .container {
+      max-width: 1271px;
+      display: flex;
+      justify-content: space-between;
+    }
+}
+
+@font-face {
+  font-family: gotham4000;
+  src: url(./Gotham-Font/GothamBook.ttf);
+}
+
+nav {
+  padding-top: 44px;
+  padding-bottom: 41px;
+}
+
+.logo-nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo-nav img {
+  width: 122px;
+  height: 40px;
+}
+
+.login-href a {
+  font-size: 20px;
+  display: inline-block;
+  line-height: 19px;
+  color: #161616;
+  opacity: 0.6;
+  font-family: gotham4000;
+
+}
+
+.list-nav {
+  margin: 0px;
+  list-style: none;
+  display: flex;
+  padding-left: 30px;
+  align-items: center;
+}
+
+.list-nav li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.list-nav li a {
+ color: rgba(22, 22, 22, 1) ;
+ opacity: 0.6;
+ font-size: 20px;
+ line-height: 19px;
+ font-family: gotham4000;
+
+}
+
+.sign-up a{
+  font-family: gotham4000;
+}
+
+.nav-left {
+  display: flex;
+}
+
+.div-button {
+  display: flex;
+  padding-right: 50px;
+}
+
+button {
+  background-color: rgba(19, 160, 254, 1) ;
+  border-radius: 5px;
+  border: 0px;
+  padding: 15.5px 26px
+}
+
+.login-href {
+  align-items: center;
+  display: flex;
+  padding-right: 26px;
+  margin-right: 24px;
+  border-right: 0.5px solid #161616;
+}
+
+button a {
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 19px;
+}
